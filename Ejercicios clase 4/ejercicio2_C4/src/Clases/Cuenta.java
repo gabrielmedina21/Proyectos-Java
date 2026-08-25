@@ -68,9 +68,9 @@ public class Cuenta {
     }
 
     public void mostrarDatosCuentaConID() {
-        System.out.println("\nID Cuenta: " + getId());
-        System.out.println("Nombre: " + getNombre());
-        System.out.printf("Balance: $%.2f" , getBalance());
+        System.out.println("\nID Cuenta: " + this.id);
+        System.out.println("Nombre: " + this.nombre);
+        System.out.printf("Balance: $%.2f" , this.balance);
     }
 
     public void mostrarDatosCuentaSinID() {

@@ -58,10 +58,10 @@ public class ItemVenta {
 
     @Override
     public String toString() {
-        return "ItemVenta[id=" + getId() + ", " +
-                            "descripcion=" + getDescripcion() + ", " +
-                            "cantidad=" + getCantidad() + ", " +
-                            "pUnitario=$" + getPrecioUnitario() + ", " +
+        return "ItemVenta[id=" + this.id + ", " +
+                            "descripcion=" + this.descripcion + ", " +
+                            "cantidad=" + this.cantidad + ", " +
+                            "pUnitario=$" + this.precioUnitario + ", " +
                             "pTotal=$" + calcularPrecioTotal() + "]";
     }
 }

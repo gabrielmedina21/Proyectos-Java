@@ -61,10 +61,10 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado" + "[dni=" + getDni() + ", " +
-                "nombre=" + getNombre() + ", " +
-                "apellido=" + getApellido() + ", " +
-                "salario=$" + getSalario() + "]";
+        return "Empleado" + "[dni=" + this.dni + ", " +
+                "nombre=" + this.nombre + ", " +
+                "apellido=" + this.apellido + ", " +
+                "salario=$" + this.salario + "]";
 
     }
 
